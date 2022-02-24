@@ -4,7 +4,17 @@ import java.math.BigDecimal;
 
 public class Man {
 
-    int age=18;
+
+    int age;
+
+    public Man() {
+        age = 18;
+    }
+
+    public Man(int age) {
+        this.age = age;
+    }
+
     String firstName = "Вася";
     char nameIetter = 'V';
     int binAge = 0b010101;
@@ -19,9 +29,9 @@ public class Man {
 
 
     public int getAge() {
-        int newAge = 25;
-        age=newAge;
+
         return age;
     }
+
 
 }
