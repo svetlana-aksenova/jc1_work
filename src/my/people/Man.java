@@ -2,6 +2,10 @@ package my.people;
 
 public class Man {
 
-    int agt=18;
+    int age=18;
+
+    public int getAge() {
+        return age;
+    }
 
 }
