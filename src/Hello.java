@@ -12,6 +12,7 @@ public class Hello {
         System.out.println(myCar.price);
         System.out.println(myCar.model);
         System.out.println(myCar.getModel().length());
+
     }
 }
 	class Car{
