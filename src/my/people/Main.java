@@ -21,7 +21,7 @@ public class Main {
             list.add(new Man(i));
         Thread.sleep(1);
         list=null;
-        
+
 
 
     }
