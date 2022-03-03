@@ -22,7 +22,7 @@ public class BasicCalculator {
                 return modul(firstNum, secondNum);
             }
             default:{
-                System.out.println("Operation unrnown");
+                System.out.println("Operation unknown");
             }
         }
 

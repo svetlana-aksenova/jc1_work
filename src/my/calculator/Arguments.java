@@ -1,4 +1,4 @@
-package Arguments;
+package my.calculator;
 
 public class Arguments {
 
